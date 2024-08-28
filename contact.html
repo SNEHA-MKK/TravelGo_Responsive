@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trip</title>
+    <link rel="icon" href="./Images/titlelogo-removebg-preview.png" type="image/icon type">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./about.css">
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- fonts -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Protest+Riot&family=Sacramento&family=Satisfy&family=Short+Stack&family=Sofadi+One&display=swap" rel="stylesheet"> -->
+
+<!-- fontawesome icon linking -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--  boxicon -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- animated.css -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body >
+
+  <header class="abt-body">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-evenly navigation">
+                <div class="container-fluid" style="background-color: #F1EAD9;">
+                  <a class="navbar-brand" href="#"><img width="100px" height="80px" src="./images/mainLogo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse navbar1" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="./index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="./about.html" target="_blank">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="./destinations.html" target="_blank">DESTINATIONS</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="./testimonials.html" target="_blank">TESTIMONIALS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="./contact.html" target="_blank">CONTACT</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          PLACES
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li> -->
+                      <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">LOGIN</a>
+                      </li> -->
+        
+                      <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li> -->
+                    </ul>
+                    <div class="quote_btn-container">
+                      <form class="form-inline">
+                        <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                      </form>
+                      <a href="./buy.html" target="_blank"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a>
+                      <a href="./login.html" target="_blank">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                  </div>
+                </div>
+    </nav>
+  </header>
+
+  <!-- section -->
+
+  <div class="container-fluid pt-5">
+    <div class="container-fluid">
+      <div>
+        <h2 data-aos="flip-up" style="overflow-y: hidden;" class="text-center text-warning test-head allHead">Contact Us</h2>
+      </div>
+    </div>
+      <div class="row pt-5  mt-5">
+        <div class="col-md-6 ps-3">
+          <form>
+            <!-- Name input -->
+            
+             
+              <input type="text" id="form4Example1" placeholder="Enter your name here" class="form-control mb-3 rounded" />
+             
+           
+          
+            <!-- Email input -->
+            
+              <input type="email" id="form4Example2" placeholder="Enter your Mail here" class="form-control mb-3"  />
+              
+          
+          
+            <!-- Message input -->
+           
+              <textarea class="form-control mb-3" id="form4Example3" placeholder="Enter your Feedback here" rows="4" required></textarea>
+              
+            
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input
+                class="form-check-input me-2"
+                type="checkbox"
+                value=""
+                id="form4Example4"
+                checked
+              />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+          
+            <!-- Submit button -->
+            <!-- <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button> -->
+            <div class="container text-center pb-5 ">
+          
+            <!-- <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <a id="c-button" class="btn " role="button">SEND</a>
+            </button> -->
+            <button class="btn btn-danger">SEND</button>
+          </div>
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 prohead" id="staticBackdropLabel">Notification</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 <h2 class="prohead"> Message send Successfully.</h2>
+                </div>
+                <div class="modal-footer">
+                  <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                  <button type="button" class="btn "><a href="./index.html" id="c-button" class="btn " role="button">OK</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+  
+  
+            
+          </form>
+        </div>
+        <div class="col-md-6">
+          <!-- map -->
+  <div class="ratio ratio-16x9">          
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52909559.72416129!2d-161.6498675042185!3d35.96303285307802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1708340585700!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+      </div>
+  </div>
+
+<!-- footer -->
+<div class='mt-5 w-100 '  >
+    <div class="row mx-md-5 px-5 mt-5">
+
+        <div class="col-md-2 ">
+          <h3 class="menu ms-5 abt-body">Menu</h3>
+              <ul class="list ms-3">
+              
+                 <a href="./index.html"> <li class="listitem">HOME</li></a>
+                  <a href="./about.html"><li class="listitem">ABOUT</li></a>
+                  <a href="./products.html"><li class="listitem">DESTINATIONS</li></a>
+                  <a href="./testimonials.html"><li class="listitem">TESTIMONIALS</li></a>
+                  <a href="./contact.html"><li class="listitem">CONTACT</li></a>
+ 
+              </ul>
+            
+        </div>
+        <div class="col-md-2 d-flex justify-content-center ">
+          <img src="./images/travel-gif.gif" width="250px" height="250px" alt="">
+        </div>
+        <div class="col-md-2 d-flex">
+      
+        
+            <p class='mt-3' >Established in 2000, MyTrip has since positioned itself as one of the leading companies, providing great offers. </p>
+          
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2  d-flex justify-content-center pe-3">
+          <div>
+            <h3 class="text-center abt-body">Contact us</h3>
+            <ul class="list p-3 text-center ">
+                <a href=""><li class="listitem">
+                  <i class="fa-solid fa-location-dot pe-3"></i>LOCATION</li></a>
+                <a href=""><li class="listitem"><i class="fa-solid fa-phone pe-3"></i>+12456325</li></a>
+                <a href=""><li class="listitem"><i class="fa-solid fa-envelope pe-3"></i><p class="">chocolux@gmail.com</p></li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 ps-4 pe-4">
+            
+            <div class="d-flex mt-2">
+                <input type="text" placeholder='Enter MailId' className='form-control' />
+                <button class='btn btn-danger px-5 ms-2 subscribe'>Subscribe</button>
+            </div>
+            <div class="d-flex justify-content-between mt-4">
+              <a href=""><i class="fa-brands fa-instagram fa-2x s-icon"></i></a>
+              <a href=""><i class="fa-brands fa-facebook fa-2x s-icon"></i></a>
+              <a href=""><i class="fa-brands fa-twitter fa-2x s-icon"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin fa-2x s-icon"></i></a>
+              
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class='text-center text-light'>copyright © 2024 Project Fair.Built with react</p>
+</div>
+
+</body>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</html>
